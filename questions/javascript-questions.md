@@ -56,6 +56,7 @@ Answers to [Front-end Job Interview Questions - JS Questions](https://github.com
 * [What are the benefits of using spread syntax and how is it different from rest syntax?](#what-are-the-benefits-of-using-spread-syntax-and-how-is-it-different-from-rest-syntax)
 * [How can you share code between files?](#how-can-you-share-code-between-files)
 * [Why you might want to create static class members?](#why-you-might-want-to-create-static-class-members)
+* [Function Settimeout() if called at 4000 milliseconds at what time will the function be executed?](#Function-Settimeout()-if-called-at-4000-milliseconds-at-what-time-will-the-function-be-executed)
 
 ### Explain event delegation
 
@@ -1246,3 +1247,11 @@ Static class members (properties/methods) are not tied to a specific instance of
 ### Other Answers
 
 * http://flowerszhong.github.io/2013/11/20/javascript-questions.html
+
+###  Function Settimeout() if called at 4000 milliseconds at what time will the function be executed?
+
+So the answer is will not be called at 3999 milliseconds, it will only be called when time is equal or greater than 4000 milliseconds not before that.
+
+###### References
+
+* https://www.w3schools.com/js/js_timing.asp
